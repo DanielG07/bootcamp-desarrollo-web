@@ -74,6 +74,27 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 8em;
+    user-select: none;
+}
+
+.win{
+    border-radius: 50%;
+    border: 5px solid rgb(28, 221, 11);
+}
+
+.lose{
+    border-radius: 50%;
+    border: 5px solid rgb(246, 1, 1);
+}
+
+.draw{
+    border-radius: 50%;
+    border: 5px solid rgb(255, 185, 34);
+}
+
+.choice:hover{
+    background: white;
+    cursor: pointer;
 }
 
 #action-message {
